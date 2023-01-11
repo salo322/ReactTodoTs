@@ -1,12 +1,13 @@
-import List from "./components/List";
-import TodoInput from "./components/Header";
+import Main from "components/Main";
+import { Box } from "@mui/material";
 
 const App = () => {
   return (
-    <div>
-      <TodoInput />
-      <List />
-    </div>
+    <>
+      <Box>
+        <Main />
+      </Box>
+    </>
   );
 };
 
